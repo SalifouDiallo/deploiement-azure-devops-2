@@ -1,0 +1,9 @@
+trigger:
+  - main
+pool:
+  vmImage: 'ubuntu-latest'
+steps:
+- script: |
+    echo "Déploiement de l'infrastructure"
+    pwsh ./scripts/deploy_infrastructure.ps1
+  displayName: 'Déploiement de l'infrastructure Azure'

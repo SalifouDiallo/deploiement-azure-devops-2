@@ -1,0 +1,7 @@
+trigger:
+  - main
+pool:
+  vmImage: 'ubuntu-latest'
+steps:
+- script: echo "Construire l'application"
+  displayName: 'Exécution du build'
