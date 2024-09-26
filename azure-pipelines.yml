@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: Lifsa
 
 steps:
 - script: echo Hello, world!
